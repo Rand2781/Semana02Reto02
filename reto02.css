@@ -3,7 +3,7 @@ label{
 }
 *formulario{
     display: block;
-    margin: 0%;
+    margin: 100%;
     width: 510px;
     color: #666666;
     font-family: Arial;
@@ -11,18 +11,34 @@ label{
 }
 form{
     margin: 0% auto;
-    width: 400px;
+    width: 300px;
+    background:rgb(229, 236, 245);
+    font-family: Arial, sans-serif; 
+    padding: 10px;
+    color: #999999;
+    border-radius: 3px;
 
+}
+
+span{
+    color: red;
 }
 
 
 
+.field{
+    width: 280px;
+
+}
+
+
 input[type="submit"]
 {
-    background: rgb(32, 32, 250);
+    background: rgb(132, 132, 245);
+    color: white;
     display: block;
-    border-radius: 4px;
-    width: 175px;
+    border-radius: 3px;
+    width: 290px;
     cursor: pointer;
     
     

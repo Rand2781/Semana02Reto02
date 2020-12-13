@@ -14,24 +14,27 @@
         <section>
             <h2></h2>
             <form>
-                <label for="apellidos">Apellidos *</label>
-                <input type="text" id="apellidos" pattern="[A-Z a-z]{6,30}">
+                <label for="apellidos">Apellidos <span>*</span></label>
+                <input type="text" id="apellidos" pattern="[A-Z a-z]{6,30}" class="field"
+                required>
                 
 
                 <br>
                 <br>
-                <label for="nombres">Nombres *</label>
+                <label for="nombres">Nombres <span>*</span></label>
                 <input type="text" id="nombres"
-                pattern="[A-Z a-z]+">
+                pattern="[A-Z a-z]+"
+                class="field" required>
 
                 <br>
                 <br>
-                <label>Correo *</label>
-                <input type="password" required>
+                <label>Correo <span>*</span></label>
+                <input type="password" required
+                class="field">
                 <br>
                 <br>
-                <label>Compañía *</label>
-                <input type="text" pattern="[A-Z a-z] {1,100}">
+                <label>Compañía <span>*</span></label>
+                <input type="text" pattern="[A-Z a-z] {1,100}" class="field">
                 <br>
                 <br>
                 
