@@ -1,0 +1,29 @@
+label{
+    display: block;
+}
+*formulario{
+    display: block;
+    margin: 0%;
+    width: 510px;
+    color: #666666;
+    font-family: Arial;
+
+}
+form{
+    margin: 0% auto;
+    width: 400px;
+
+}
+
+
+
+input[type="submit"]
+{
+    background: rgb(32, 32, 250);
+    display: block;
+    border-radius: 4px;
+    width: 175px;
+    cursor: pointer;
+    
+    
+}
